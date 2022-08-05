@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #111;
+  color: #fff;
+  padding: 2rem 8rem 0;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.main-section {
+  margin-top: 0rem 1rem 2rem 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.designer img {
+  width: 725px;
+  margin-left: -10rem;
+}
+
+.main-text {
+  color: #e73636;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.roll-name {
+  font-size: 4rem;
+  width: 40rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.main-description {
+  color: #ac9797;
+}
+
+.main-button.section-button {
+  margin-top: 2rem;
+}
+
+.hero-btn {
+  margin-top: 2rem;
+}
+
+.main-button {
+  padding: 0.9rem 3rem;
+  font-size: 1.1rem;
+  background: #e24747;
+  border: none;
+  color: #fff;
+}
+
+.second-container {
+  background: #35353532;
+  margin: 0 -8rem;
+  padding-bottom: 4rem;
+}
+
+.second-top-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  padding: 5rem 12rem;
+}
+
+.card {
+  background-color: #212121;
+  padding: 2rem;
+  position: relative;
+}
+
+.icon svg {
+  height: 300px;
+  position: absolute;
+  top: -6rem;
+  left: -2.5rem;
+}
+.icon img {
+  position: absolute;
+}
+
+.title {
+  margin-top: 6rem;
+}
+
+.know-more {
+  color: #ff3b3b;
+  background: transparent;
+  border: none;
+  font-size: 1.1rem;
+}
+
+.card .know-more {
+  margin: 2rem 0 0;
+}
+
+.third-container {
+  margin-left: -6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.first-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 8rem;
+  margin-left: 8rem;
+}
+
+.experience-years {
+  font-size: 8rem;
+  font-weight: 700;
+  color: #ff3b3b;
+  line-height: 1;
+}
+
+.experience-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+}
+
+.red-card {
+  background: #c91b28;
+}
+.red-card .know-more {
+  color: #fff;
+}
+.count {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #ff3b3b;
+}
+
+.showcase-card {
+  padding: 2rem 8rem;
+  text-align: center;
+}
+
+.projects-container {
+  margin: 0 0;
+  margin-left: -2rem;
+}
+
+.project-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 0;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  place-items: center;
+}
+
+.project img {
+  width: 500px;
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 1rem 0 0.2rem;
+}
+
+.letswork-container {
+  padding: 4rem 3rem;
+  margin: 5rem 0;
+  margin-left: 4rem;
+  background-color: #212121;
+  display: flex;
+  gap: 12rem;
+  align-items: center;
+}
+
+.work-title {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1.2rem;
+}
+
+.footer-links {
+  justify-content: center;
+  color: #d5d5d5;
+  margin-bottom: 3rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: #212121;
+  padding: 2rem 12rem;
+  margin: 0 -8rem;
+}
+
+.socials {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  position: relative;
+  right: 60px;
+}
+
+.social img {
+  width: 32px;
+}
