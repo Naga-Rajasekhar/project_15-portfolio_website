@@ -1,6 +1,6 @@
-# Project 1 - HTML ![HTML Logo](./HTML_logo.png) and CSS ![CSS logo](./CSS_logo.png)
+# Project 15 - HTML ![HTML Logo](./HTML_logo.png) and CSS ![CSS logo](./CSS_logo.png)
 
-> <img src="https://camo.githubusercontent.com/0c41180f5175444746f8863b9dc551b2e42ecc3fbaf39b917c3358052971064b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f50726f6a6563742d31352d627269676874677265656e" alt="Project 15" data-canonical-src="https://img.shields.io/badge/Project-15-brightgreen" style="max-width: 100%;">
+> ![Project 15](https://img.shields.io/badge/Project-15-brightgreen)
 >
 > By Naga Rajasekhar
 
