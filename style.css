@@ -317,3 +317,131 @@ h6 {
 .icons img {
   width: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+  * {
+    margin: 0rem;
+    padding: 0rem;
+  }
+  .logo-image {
+    margin-left: 10rem;
+  }
+  .navbar-top {
+    display: grid;
+    gap: 2rem;
+  }
+  .navbar-list ul {
+    display: flex;
+    gap: 15px;
+    font-size: small;
+  }
+
+  .navbar-list {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .self-introduction {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .self-image-class {
+    height: 400px;
+  }
+
+  .self-intro-heading {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 3rem;
+  }
+
+  .self-into-role {
+    font-size: 3rem;
+    margin-left: 2.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .self-description {
+    margin-left: 0.5rem;
+    width: 24rem;
+    text-align: center;
+  }
+
+  .about-me-btn {
+    margin-left: 8rem;
+    margin-bottom: 1rem;
+  }
+
+  .tech-type-cards ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 5rem 18rem;
+    width: 20rem;
+    margin-left: -13rem;
+  }
+
+  .statistics {
+    display: grid;
+    margin-left: -13rem;
+  }
+
+  .experience-card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 5rem;
+    margin-left: 22rem;
+  }
+
+  .project-headings {
+    display: grid;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: -2rem;
+  }
+
+  .project img {
+    width: 350px;
+  }
+
+  .next-project-border-box {
+    display: grid;
+    padding-bottom: 0.1rem;
+  }
+
+  .next-project-description h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .next-project-description p {
+    margin-left: 1rem;
+    text-align: center;
+  }
+
+  .next-project-border-box button {
+    position: relative;
+    top: -10rem;
+    left: 7rem;
+  }
+
+  .bottom-link {
+    font-size: 18px;
+  }
+
+  .bottom-footer {
+    display: grid;
+    gap: 2rem;
+  }
+
+  .icons {
+    margin-left: 1rem;
+  }
+}
